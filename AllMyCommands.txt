@@ -1,0 +1,38 @@
+1. cd ~
+2. ls
+3. cd Desktop
+4. ls
+5. cd Sprint0
+6. git init
+7. git add First.txt
+8. git status
+9. git commit -m"I added the first file"
+
+10. git add Second.txt
+11. git status
+12. git commit -m"I added the second file"
+
+13. git add Third.txt
+14. git status
+15. git commit -m"I added the third file"
+
+16. git rm Second.txt
+17. git commit -m"Here I removed the file that contains the section 3.1"
+
+18. git log
+19. git revert 7fddc191c5e6dec43abfeec62517c65fdf6c41e0
+20. git commit -m"I here restored the second file"
+
+21. git remote add SeProjectRepo https://github.com/NourhanAshraf/SeProject.git
+22. git push -u SeProjectRepo master
+
+23. git branch ReadMe
+24. git checkout ReadMe
+25. git add README.md
+26. git commit -m"I added the README file"
+27. git checkout master
+28. git merge ReadMe
+
+29. git add AllMyCommands.txt
+30. git commit -m"I added AllMyCommands.txt"
+31. git push -u SeProjectRepo master
